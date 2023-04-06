@@ -1,0 +1,23 @@
+
+/*applies oto all elements of class aquaclass*/
+.aquaclass{
+    background-color: aqua;
+}
+
+
+/*Applies to all elements of the class aquaclass within the pre tag*/
+pre.aquaclass{
+    background-color: red;
+}
+
+
+/*Applies only to elements with an ID para*/
+#para{
+    font-size: 30px;
+}
+
+
+/* Applies to every single element */
+* {
+    font-style: italic ;
+}
