@@ -1,0 +1,41 @@
+/* Inheritance can be used to get the properties of the parent tag */
+
+pre{
+    background-color: aqua;
+    font-style: italic;
+    text-align: justify;
+    color: red;
+    border-style: dotted double;
+    border-color: red green;
+    border-width: medium;
+    border-radius: 10px;
+}
+
+
+
+h1{
+
+    /*Inheriting the text alignment, background colour, text align and color. The inheritance properties are 
+    applied automatically. They should be explicitly changed. SO the code below can be omitted*/
+    text-align: inherit;
+    background-color: inherit;
+    text-align: inherit;
+    color: inherit;
+
+    /*Not inheriting the font style*/
+    font-style: normal;
+
+    /*If the following lines of code are omitted, the borders of pre tag and h1 tag are merged into a single block*/
+    border-style: groove;
+    border-color: yellow;
+    border-width: thick;
+    
+    /*Border radius is used to create curved borders*/
+    border-radius: 5px;
+
+    /*
+    Alternate declaration:
+    Width-Style-Color
+    */
+    /* border: thick groove yellow; */
+}

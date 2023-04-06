@@ -1,0 +1,17 @@
+/*The body element with a background image.*/
+body{
+    background-image: url("https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png");
+    color: black;
+    opacity: 20;
+
+    /*Background repeat allows us to define how many times the background image must repeat in the element*/
+    background-repeat: no-repeat;
+
+    background-position: top right;
+    background-blend-mode:exclusion;
+
+    /*Defines text margin inside the element as a percentage. Argument order: Top, Right, Left, Bottom*/
+    margin: 50% 50%;
+}
+
+

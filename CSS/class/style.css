@@ -21,3 +21,13 @@ pre.aquaclass{
 * {
     font-style: italic ;
 }
+
+/* multiple selectors */
+h3,h4{
+    background-color: black;
+    color: white;
+}
+
+h3{
+    font-style: initial;
+}
