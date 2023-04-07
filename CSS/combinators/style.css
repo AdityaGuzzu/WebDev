@@ -1,0 +1,14 @@
+/* Combinators in CSS allow us to style elements depending on the inheritance they hold */
+
+ pre h1{
+    color:green;
+} 
+
+pre > h1{
+    color:red;
+}
+
+pre ~ h1{
+    color: blue;
+}
+

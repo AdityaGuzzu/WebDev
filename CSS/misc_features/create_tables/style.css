@@ -1,0 +1,26 @@
+
+/* This applies the styling to the table ona whole as well as the table header, table row and table data. 
+     */
+td,tr,th{
+    border: 2px black solid;
+    border-left: none;
+    border-right: none;
+    font-family: cursive;
+    /* border-collapse: collapse; */
+    border-radius: 10px;
+}
+
+table{
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+
+/* We can specify some properties of the element during hovering */
+td:hover{
+    background-color: aqua;
+    
+    font-size: 30px;
+}

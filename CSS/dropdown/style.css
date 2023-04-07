@@ -1,0 +1,35 @@
+h1{
+    background-color: black;
+    color: rgb(226, 27, 167);
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+.dropdown-menu a{
+    background-color: white;
+    display:block;
+    width: 50%;
+    color: black;
+}
+
+.dropdown-button{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    visibility: hidden;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgb(226, 27, 167);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dropdown:hover .dropdown-menu{
+    visibility: visible;
+}
