@@ -1,0 +1,11 @@
+body{
+    font-size: 50px;
+    color: black;
+ 
+    /*The order is text-decoration-line text-decoration-color text-decoration-thickness*/
+    text-decoration: line-through purple dotted;
+    text-decoration-thickness: 5px;
+    text-transform: uppercase;
+    text-rendering:geometricPrecision;
+    font-family:cursive;
+}

@@ -1,0 +1,9 @@
+h1{
+
+    height: 90px;
+    width: 50%;
+
+    /*Max height sets the maximum height the element can have. Since it is set as 60, any value above 60 will be set to 60*/
+    max-height: 60px;
+    background-color: aqua;
+}
