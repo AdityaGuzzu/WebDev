@@ -3,5 +3,9 @@
         {
             "path": "."
         }
-    ]
+    ],
+    "settings": {
+        "editor.mouseWheelZoom": true,
+        "editor.wordWrap": "on"
+    }
 }

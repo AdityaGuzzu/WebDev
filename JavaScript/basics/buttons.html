@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link rel="stylesheet" href="style.css">
+                <title>IPL</title>
+        </head>
+    <body>
+        <form style="text-align:justify">
+            
+            <label>What is your fav IPL </label>
+            <br>
+            <!--
+                We can use labels before taking input.
+                We canṇ only choose one of the values if multiple values are having the same name.
+                Here, All the values SRH, MI and CSK have the same name "IPL"
+                The attribute "name" is used within the html page but the attribute "ID" is used by CSS
+            -->
+            <label for="IPL">Sunrisers Hyderabad</label><input type="radio" name="IPL" id="button1" value="SRH">
+            <br>
+            <label for="IPL">Mumbai Indians</label><input type="radio" name="IPL" id="button2" value="MI">
+            <br>
+            <label for="IPL">Chennai Super Kings</label><input type="radio" name="IPL" id="button3" value="CSK">
+            <!--The submit button is used to submit all the values selected by the user.-->
+        </form>
+        <br>
+        <input type ="text" id="name" value="enter here">
+        <br>
+        <button type="button" id="button1" onclick="srh()"> Submit </button>
+    </body>
+    <p id="printelem"></p>
+    <script src="main.js"></script>
+</html>
