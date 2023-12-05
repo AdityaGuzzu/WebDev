@@ -5,7 +5,7 @@ let word = "Heyyyy";
 let singlequoteword = 'Yo ';
 let shiitty = `Shitty righttt`;
 let string_arr = ["Word 1", "Word 2", "Word 3"];
-var user_name = document.getElementById("name").value;
+// var user_name = document.getElementById("name").value;
 
 const button1 = document.querySelector('#button1');
 // const button2 = document.querySelector('#button2');
@@ -15,6 +15,7 @@ const button1 = document.querySelector('#button1');
 
 
 function srh(){
+    var user_name = document.getElementById("name").value;
     var printelem = document.getElementById("printelem")
     printelem.innerHTML = "Welcome " + document.getElementById("name").value + ". You are an SRH fan"
     console.log("Welcome "+ user_name +"are an SRH fan!");
