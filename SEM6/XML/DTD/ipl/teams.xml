@@ -1,0 +1,15 @@
+<!DOCTYPE ipl SYSTEM "definition.dtd">
+<ipl>
+    <team>
+        <teamname>Sunrisers Hyderabad</teamname>
+        <homeground>Hyderabad</homeground>
+        <captain>Pat Cumins</captain>
+        <trophies>2</trophies>
+    </team>
+    <team>
+        <teamname>Chennai Super Kings</teamname>
+        <homeground>Chennai</homeground>
+        <captain>MS Dhoni</captain>
+        <trophies>5</trophies>
+    </team>
+</ipl>

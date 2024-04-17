@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bs:schema xmlns:bs="http://www.w3.org/2001/XMLSchema">
+    <bs:element name="student">
+    <bs:complexType>
+        <bs:sequence>
+            <bs:element name = "name" type="bs:string"/>
+            <bs:element name = "course" type = "bs:string"/>
+            <bs:element name = "roll-number" type = "bs:int"/>         
+        </bs:sequence>
+    </bs:complexType>
+    </bs:element>
+</bs:schema>

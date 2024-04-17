@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script>
+            function passByValue(a,b){
+                let tmp = b;
+                b = a;
+                a = tmp;
+                document.writeln("Inside the fucntion which passes values -> a = " +a+" b = " + b);
+            }
+
+            function passByRef(obj){
+                let tmp = obj.a;
+                obj.a = obj.b;
+                obj.b = tmp;
+                document.writeln("Inside the fucntion which works using refs -> obj.a = " +obj.a+" obj.b = " + obj.b);
+            }
+
+            let nums = {
+                a: 10,
+                b: 20
+            }
+
+            let a = 1;
+            let b = 2;
+            passByValue(a,b);
+            passByRef(nums);
+        </script>
+    </head>
+</html>

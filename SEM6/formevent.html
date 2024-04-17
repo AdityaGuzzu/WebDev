@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script>
+            function focusEvent(){
+                alert("Focus away from the form");
+                document.getElementById("blurID").style.background = "green";
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" value="none" onfocus="focusEvent()" id="blurID"/>
+    </body>
+</html>

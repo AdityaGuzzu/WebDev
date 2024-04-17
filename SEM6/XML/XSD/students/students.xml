@@ -1,0 +1,5 @@
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="definition.xsd">
+        <name>Aditya</name>
+        <course>MPCS</course>
+        <roll-number>24</roll-number>
+</student>

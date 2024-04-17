@@ -1,0 +1,6 @@
+<!ELEMENT ipl (team+)>
+<!ELEMENT team (teamname, homeground, captain, trophies)>
+<!ELEMENT teamname (#PCDATA)>
+<!ELEMENT homeground (#PCDATA)>
+<!ELEMENT captain (#PCDATA)>
+<!ELEMENT trophies (#PCDATA)>
